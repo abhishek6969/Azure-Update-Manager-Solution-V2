@@ -107,3 +107,17 @@ Before deploying this solution:
 | `data.tf` | Key Vault secret lookups for webhook URLs |
 | `scripts/` | PowerShell runbook source files |
 | `archives/import.ps1` | One-time import script for existing resources |
+
+---
+
+## Technical Documentation
+
+For detailed technical information about each Terraform file, PowerShell script, and the complete event flow, see [README_TECHNICAL.md](README_TECHNICAL.md).
+
+Includes:
+- In-depth explanation of what each `.tf` file does
+- PowerShell runbook execution steps and authentication
+- Azure Resource Graph KQL queries
+- Complete event flow diagrams
+- Deployment checklist
+- Debugging commands and tips
